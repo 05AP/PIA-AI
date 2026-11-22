@@ -124,7 +124,7 @@ uno válido encontrado rápido. En una ejecución devolvió un plan válido de
 
 ## Video
 
-Enlace al video demostrativo: *pendiente*
+Enlace al video demostrativo: https://drive.google.com/file/d/1Kvq3JVnnK2mTBiYGffl_7sS_Pax1nkS8/view?usp=sharing
 
 ## Proceso de diseño
 
