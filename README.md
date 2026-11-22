@@ -110,11 +110,17 @@ Plan óptimo de 15 pasos (búsqueda en amplitud):
 
 ### Planes alternativos
 
-El problema admite más de un plan válido. Según el planificador y la búsqueda,
-se puede obtener otro orden de visitas (primero el hospital) o un plan donde
-`camioneta-02` entrega el desengrasante en paralelo mientras `camion-01` atiende
-al hospital. Ambas alternativas también son de 15 pasos y respetan las mismas
-restricciones.
+El problema admite más de un plan válido. Hay otros planes óptimos de 15 pasos:
+por ejemplo, visitar primero el hospital, o que `camioneta-02` entregue el
+desengrasante mientras `camion-01` atiende al hospital.
+
+El planificador de editor.planning.domains no garantiza el plan más corto, sino
+uno válido encontrado rápido. En una ejecución devolvió un plan válido de
+**20 pasos**:
+
+- Usa `camioneta-02` para el desengrasante y `camion-01` para el cloro, porque
+  solo ese vehículo se puede rotular.
+- Incluye dos viajes de ida y vuelta sin carga que no aportan a la meta.
 
 ## Video
 
